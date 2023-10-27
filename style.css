@@ -31,7 +31,7 @@ body {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   box-shadow: inset 0 -10px 10px 3px #cc9e24;
-  background: linear-gradient(to right, #fcda6d 67%, #cc9e24 100%);
+  background: #fcda6d
 }
 
 .hairs {
