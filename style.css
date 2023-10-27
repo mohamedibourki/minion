@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 
-.body {
+.body1 {
   background: rgb(252, 218, 109);
   position: absolute;
   top: 30%;
@@ -53,7 +53,7 @@ body {
   border-radius: 100%;
 }
 
-.hair1 {
+.hair11 {
   width: 30px;
   height: 40px;
   transform: rotate(150deg);
@@ -66,7 +66,7 @@ body {
   border-radius: 100%;
 }
 
-.hair2 {
+.hair22 {
   width: 30px;
   height: 40px;
   transform: rotate(160deg);
@@ -79,7 +79,7 @@ body {
   border-radius: 100%;
 }
 
-.hair5 {
+.hair55 {
   width: 30px;
   height: 40px;
   transform: rotate(20deg);
@@ -92,7 +92,7 @@ body {
   border-radius: 100%;
 }
 
-.hair6 {
+.hair66 {
   width: 30px;
   height: 40px;
   transform: rotate(30deg);
@@ -105,7 +105,7 @@ body {
   border-radius: 100%;
 }
 
-.hair7 {
+.hair77 {
   width: 30px;
   height: 40px;
   transform: rotate(30deg);
@@ -118,13 +118,13 @@ body {
   border-radius: 100%;
 }
 
-.eyes {
+.eyes1 {
   display: flex;
   justify-content: center;
 }
 
-.eye1,
-.eye2 {
+.eye11,
+.eye22 {
   border: 10px solid #929092;
   width: 100px;
   height: 80px;
@@ -292,7 +292,7 @@ body {
   height: 10px;
 }
 
-.hand1 {
+.hand11 {
   width: 130px;
   height: 30px;
   border-radius: 20px;
@@ -304,7 +304,7 @@ body {
   z-index: -1;
 }
 
-.hand2 {
+.hand22 {
   width: 130px;
   height: 30px;
   border-radius: 20px;
@@ -316,14 +316,14 @@ body {
   z-index: -2;
 }
 
-.legs {
+.legs1 {
   display: flex;
   gap: 30px;
   justify-content: center;
 }
 
-.leg1,
-.leg2 {
+.leg11,
+.leg22 {
   width: 45px;
   height: 50px;
   background-color: #146696;

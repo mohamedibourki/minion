@@ -1,0 +1,333 @@
+body {
+    background-color: #87ceeb;
+    zoom: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    position: relative;
+    width: 620px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #87ceeb;
+    z-index: -5;
+}
+
+#bodypart {
+    position: absolute;
+    border: solid;
+}
+
+.head {
+    border: solid;
+    width: 320px;
+    height: 310px;
+    border-radius: 45% 45% 50% 50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(3, 173, 240);
+    z-index: -1;
+}
+
+.eye1 {
+    width: 90px;
+    height: 120px;
+    border-radius: 40% 50%;
+    left: 35%;
+    top: 15px;
+    background-color: white;
+}
+
+.eye2 {
+    width: 90px;
+    height: 120px;
+    border-radius: 50% 40%;
+    right: 35%;
+    top: 15px;
+    background-color: white;
+}
+
+.pupil1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    left: 43%;
+    top: 17%;
+}
+
+.pupil2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    right: 43%;
+    top: 17%;
+}
+
+.nose1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    right: 50%;
+    transform: translate(50%);
+    top: 21%;
+}
+
+.nosep {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    right: 49.5%;
+    top: 22%;
+    border: none !important;
+}
+
+.hskin {
+    border: solid;
+    width: 255px;
+    height: 210px;
+    border-radius: 35% 35% 70% 70%;
+    left: 50%;
+    transform: translate(-50%);
+    top: 16.5%;
+    z-index: -1;
+    background-color: white;
+}
+
+.hair1 {
+    width: 85px;
+    top: 33.5%;
+    left: 42.9%;
+    transform: rotate(90deg);
+}
+
+.hair2 {
+    width: 90px;
+    top: 38.5%;
+    left: 49.5%;
+    transform: rotate(-20deg);
+    border-radius: 0 0 60% 60%;
+}
+
+.hair3 {
+    width: 90px;
+    top: 38.5%;
+    right: 49.5%;
+    transform: rotate(20deg);
+    border-radius: 0 0 60% 60%;
+}
+
+.hair4 {
+    width: 85px;
+    top: 25%;
+    right: 53%;
+    transform: rotate(10deg);
+    border-top: none !important;
+}
+
+.hair5 {
+    width: 85px;
+    top: 28%;
+    right: 53%;
+    transform: rotate(10deg);
+    border-top: none !important;
+}
+
+.hair6 {
+    width: 85px;
+    top: 31%;
+    right: 53%;
+    transform: rotate(10deg);
+    border-top: none !important;
+}
+
+.hair7 {
+    width: 85px;
+    top: 25%;
+    left: 53%;
+    transform: rotate(-10deg);
+    border-top: none !important;
+}
+
+.hair8 {
+    width: 85px;
+    top: 28%;
+    left: 53%;
+    transform: rotate(-10deg);
+    border-top: none !important;
+}
+
+.hair9 {
+    width: 85px;
+    top: 31%;
+    left: 53%;
+    transform: rotate(-10deg);
+    border-top: none !important;
+}
+
+.tk {
+    width: 200px;
+    height: 10px;
+    background-color: red;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.bell {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    right: 50%;
+    transform: translate(50%);
+    top: 48%;
+    z-index: 5;
+}
+
+.bellp {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    right: 50%;
+    top: 51%;
+    transform: translateX(50%);
+    border: none !important;
+    z-index: 5;
+}
+
+.body {
+    width: 200px;
+    height: 150px;
+    border-radius: 30% 30% 50% 50%;
+    background-color: white;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+}
+
+.pocket {
+    width: 130px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 10rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    z-index: 5;
+}
+
+.full {
+    width: 240px;
+    height: 220px;
+    background-color: rgb(3, 173, 240);
+    bottom: 90px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15% 15% 3% 3%;
+    z-index: 2;
+}
+
+.legs {
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    bottom: 6%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 10rem;
+    z-index: -2;
+}
+
+.line {
+    height: 100px;
+    left: 50%;
+    bottom: 6%;
+    border-left: none !important;
+    z-index: 5;
+}
+
+.line2 {
+    width: 30px;
+    border-top: none !important;
+    bottom: 23%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 5;
+}
+
+.hand1 {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(3, 173, 240);
+    top: 332px;
+    left: 17%;
+    border-right: none !important;
+    transform: rotate(-45deg);
+    z-index: 3;
+    border-radius: 10%;
+}
+
+.hand2 {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(3, 173, 240);
+    top: 55.3%;
+    right: 17%;
+    border-left: none !important;
+    transform: rotate(45deg);
+    z-index: 3;
+    border-radius: 10%;
+}
+
+.handball1 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    top: 387px;
+    left: 14%;
+}
+
+.handball2 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    top: 65%;
+    right: 14%;
+}
+
+.earase {
+    width: 20px;
+    height: 30px;
+    background-color: rgb(3, 173, 240);
+    border: none !important;
+    top: 60%;
+    left: 30.9%;
+    z-index: 5;
+    border-radius: 15%;
+}
+
+.earase2 {
+    width: 20px;
+    height: 30px;
+    background-color: rgb(3, 173, 240);
+    border: none !important;
+    top: 60%;
+    right: 30.9%;
+    z-index: 5;
+    border-radius: 15%;
+}
