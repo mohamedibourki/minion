@@ -1,17 +1,9 @@
-body {
-    background-color: #87ceeb;
-    zoom: 70%;
-    margin: 0;
-    padding: 0;
-}
-
 .board {
     position: relative;
     width: 620px;
     height: 600px;
     justify-content: center;
     align-items: center;
-    background-color: #87ceeb;
     z-index: -5;
 }
 
