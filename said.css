@@ -1,6 +1,6 @@
 .spong {
     background-color: #fee847;
-    width: 400px;
+    width: 450px;
     height: 450px;
     position: relative;
     bottom: 50%;
@@ -140,7 +140,7 @@
     border-top: none;
     border-right: none;
     border-left: none;
-    bottom: 40px;
+    bottom: 120px;
 }
 
 .thetss {
@@ -152,7 +152,7 @@
     position: relative;
     left: 45%;
     transform: translate(-50%);
-    bottom: 45px;
+    bottom: 125px;
 }
 
 .hamra {
@@ -161,7 +161,7 @@
     border: 3px solid red;
     border-bottom: none;
     border-radius: 40%;
-    bottom: 30px;
+    bottom: 120px;
     position: relative;
 }
 
@@ -176,4 +176,54 @@
 .flc {
     display: flex;
     justify-content: center;
+}
+
+.suiz1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    right: 50px;
+    border-top-left-radius: 50%;
+    border: 2px solid;
+}
+
+.suiz1::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 250px;
+    background-color: #fee847;
+    position: relative;
+    top: 30px;
+    border: 2px solid;
+    border-radius: 30px;
+    z-index: -1;
+    transform: rotate(5deg);
+}
+
+.suiz2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    left: 440px;
+    border-top-right-radius: 50%;
+    bottom: 50px;
+    border: 2px solid;
+}
+
+.suiz2::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 250px;
+    background-color: #fee847;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+    z-index: -1;
+    transform: rotate(-5deg);
 }
