@@ -9,7 +9,6 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: #fee847;
 
   @media (max-width: 850px) {
     overflow-y: auto;
