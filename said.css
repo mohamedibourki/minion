@@ -16,7 +16,7 @@ ul.spongebob {
     margin: 0 auto;
     bottom: 300px;
 
-    @media (max-width: 1200px) {
+    @media (max-width: 900px) {
         display: none;
     }
 }

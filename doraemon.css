@@ -1,3 +1,7 @@
+body {
+    zoom: 70%;
+}
+
 .board {
     position: relative;
     width: 620px;

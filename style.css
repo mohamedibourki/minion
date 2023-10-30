@@ -24,9 +24,10 @@ body {
   justify-content: center;
   left: -30px;
   top: 100px;
+  zoom: 120%;
 
   @media (max-width: 850px) {
-    margin-top: 500px;
+    margin-top: 550px;
   }
 }
 
