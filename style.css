@@ -31,6 +31,13 @@ body {
   }
 }
 
+.container:hover .hand11 {
+  transform: rotate(220deg);
+  bottom: 340px;
+  right: 100px;
+  transition: 500ms;
+}
+
 .body1 {
   background: rgb(252, 218, 109);
   position: absolute;

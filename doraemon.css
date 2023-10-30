@@ -8,7 +8,7 @@ body {
     height: 600px;
     justify-content: center;
     align-items: center;
-    z-index: -5;
+    /* z-index: -5; */
     left: -80px;
     top: 150px;
 }
@@ -99,17 +99,16 @@ body {
 }
 
 .hair1 {
-    width: 85px;
-    top: 33.5%;
-    left: 42.9%;
-    transform: rotate(90deg);
+    height: 59px;
+    top: 27%;
+    left: 49.5%;
 }
 
 .hair2 {
     width: 90px;
     top: 38.5%;
     left: 49.5%;
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
     border-radius: 0 0 60% 60%;
 }
 
@@ -117,7 +116,7 @@ body {
     width: 90px;
     top: 38.5%;
     right: 49.5%;
-    transform: rotate(20deg);
+    transform: rotate(-20deg);
     border-radius: 0 0 60% 60%;
 }
 
@@ -328,4 +327,21 @@ body {
     right: 30.9%;
     z-index: 5;
     border-radius: 15%;
+}
+
+.board:hover .hair2 {
+    transform: rotate(-20deg);
+    top: 40%;
+    transition: 700ms;
+}
+
+.board:hover .hair1 {
+    height: 93px;
+    transition: 700ms;
+}
+
+.board:hover .hair3 {
+    transform: rotate(20deg);
+    top: 40%;
+    transition: 700ms;
 }
