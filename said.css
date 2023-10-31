@@ -1,3 +1,14 @@
+.contain {
+    position: relative;
+    z-index: -5;
+}
+
+.sunny {
+    position: absolute;
+    top: -550px;
+    zoom: 120%;
+}
+
 .spong {
     background-color: #fee847;
     width: 400px;
