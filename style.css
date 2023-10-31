@@ -384,7 +384,7 @@ body {
 }
 
 .grass {
-  background-color: #5fa716;
+  background-color: #62b312;
   position: relative;
   top: -220px;
   height: 200px;
@@ -405,8 +405,8 @@ body {
   background-color: yellow;
   width: 80px;
   height: 5px;
-  bottom: 450px;
-  left: 145px;
+  bottom: 435px;
+  left: -130px;
   animation: suns 2s infinite;
 }
 
@@ -415,10 +415,10 @@ body {
   background-color: yellow;
   width: 80px;
   height: 5px;
-  bottom: 275px;
-  left: 85px;
-  transform: rotate(45deg);
-  animation: suns3 2s infinite;
+  bottom: 292px;
+  right: 64px;
+  transform:translate(-50%, 400%) rotate(-45deg);
+  animation: suns3 2s 1s infinite;
 }
 
 .sunshine2 {
@@ -474,9 +474,11 @@ body {
   0% {
     transform: translatex(500px);
   }
+
   50% {
     transform: translatex(-500px);
   }
+
   100% {
     transform: translatex(500px);
   }
@@ -486,29 +488,36 @@ body {
   0% {
     transform: translateX(0%);
   }
+
   50% {
-    transform: translateX(-50%);
+    transform: translateX(50%);
   }
-  100% {
-  }
+
+  100% {}
 }
+
 @keyframes suns2 {
   0% {
     transform: translateY(0%);
   }
+
   50% {
     transform: translateY(-50%);
   }
-  100% {
-  }
+
+  100% {}
 }
+
 @keyframes suns3 {
   0% {
-    transform: translate(0%, 0%) rotate(45deg);
+    transform: translate(-40%, 400%) rotate(-45deg);
   }
+
   50% {
-    transform: translate(22.5%, 400%) rotate(45deg);
+    transform: translate(10%, -340%) rotate(-45deg);
   }
+
   100% {
+    transform: translate(-40%, 400%) rotate(-45deg);
   }
 }
