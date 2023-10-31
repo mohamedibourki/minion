@@ -49,7 +49,7 @@ body {
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   box-shadow: inset 0 -10px 10px 3px #cc9e24;
-  background: #fcda6d
+  background: #fcda6d;
 }
 
 .hairs {
@@ -179,7 +179,7 @@ body {
 .both:last-child {
   transform: rotate(0deg);
   position: relative;
-  left: 0px
+  left: 0px;
 }
 
 .partip1 {
@@ -384,7 +384,7 @@ body {
 }
 
 .grass {
-  background-color: #62b312;
+  background-image: linear-gradient(to top, green, #62b312);
   position: relative;
   top: -220px;
   height: 200px;
@@ -417,7 +417,7 @@ body {
   height: 5px;
   bottom: 292px;
   right: 64px;
-  transform:translate(-50%, 400%) rotate(-45deg);
+  transform: translate(-50%, 400%) rotate(-45deg);
   animation: suns3 2s 1s infinite;
 }
 
@@ -470,6 +470,18 @@ body {
   right: 40px;
 }
 
+.contain {
+  position: relative;
+  z-index: -5;
+}
+
+.sunny {
+  position: absolute;
+  top: -550px;
+  zoom: 120%;
+  right: -120px;
+}
+
 @keyframes move {
   0% {
     transform: translatex(500px);
@@ -493,7 +505,8 @@ body {
     transform: translateX(50%);
   }
 
-  100% {}
+  100% {
+  }
 }
 
 @keyframes suns2 {
@@ -505,7 +518,8 @@ body {
     transform: translateY(-50%);
   }
 
-  100% {}
+  100% {
+  }
 }
 
 @keyframes suns3 {
